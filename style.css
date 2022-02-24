@@ -15,8 +15,14 @@ a{
     
 }
 
-.nav-item{
+#logo{
     display: inline-block;
+
+}
+
+.nav-item{
+    text-align: center;
+    display: inline;
     padding: 10px;
 }
 .fot-item{
