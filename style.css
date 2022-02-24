@@ -1,7 +1,7 @@
 body{
     background-color: #262a34;
-    text-align: center;
     font-family: 'Urbanist', sans-serif;
+    color: white;
 }
 
 p{
@@ -14,7 +14,8 @@ h1, h2, h3, h4{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #d7afff;
+    
     
 }
 
