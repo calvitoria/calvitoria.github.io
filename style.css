@@ -5,6 +5,11 @@ body{
     font-size: 16px;
     margin-left: 50px;
     margin-right: 50px;
+    
+}
+
+.navbar{
+   text-align: center;
 }
 
 p{
@@ -18,6 +23,11 @@ a{
     
 }
 
+a:hover{
+    color: #af87ff;
+
+}
+
 #logo{
     display: inline-block;
 
@@ -26,10 +36,6 @@ a{
 .nav-item{
     text-align: center;
     display: inline;
-    padding: 10px;
-}
-.fot-item{
-    display: inline-block;
     padding: 10px;
 }
 
@@ -67,16 +73,19 @@ a{
     line-height: 35px;
 }
 
+/* .title-name:hover{
+    color: #0ba2be;
+} */
+
 .hi{
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: ;
+   
 }
 
 .homep{
     margin-bottom: 30px;
-    padding: 0;
-    margin-top:0;
+    margin-top: -18px;
 }
 
 .button{
@@ -90,6 +99,40 @@ a{
    
 }
 
+.button:hover{
+    background-color: #1f8294;
+    color: white;
+    width: 20px;
+    height: 6px;
+    border-radius: 3rem;
+    padding: 10px 35px;
+}
+
 .profilepicture{
     margin-top: 50px;
+}
+
+.nodeco{
+    list-style: none;
+    
+}
+
+.lilac{
+    color: #d7afff;
+    font-weight: 900;
+}
+
+footer{
+    height: 80px;
+    background-color: #495057;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.fot-item{
+    display: inline-block;
+   
 }
