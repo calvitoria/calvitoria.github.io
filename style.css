@@ -8,10 +8,13 @@ p{
     color: white;
 }
 
-h1, h2, h3, h4{
+h2, h3, h4{
     color: white;
 }
 
+h1{
+    color:#0ba2be;
+}
 a{
     text-decoration: none;
     color: #d7afff;
@@ -31,4 +34,9 @@ a{
 .nav-title{
     display: inline-block;
     padding: 0px, 15px, 15px, 15px;
+}
+
+#disclamer{
+    color: #0ba2be;
+    
 }
