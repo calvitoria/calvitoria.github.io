@@ -1,0 +1,33 @@
+body{
+    background-color: #262a34;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+p{
+    color: white;
+}
+
+h1, h2, h3, h4{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 10px;
+}
+.fot-item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-title{
+    display: inline-block;
+    padding: 0px, 15px, 15px, 15px;
+}
