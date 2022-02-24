@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>calvitoria's portfolio</title>
 </head>
 <body>
     <header>
         <div class="navbar">
            <div id="logo">
-                <a href="#home"><img src="images/Vitória Meinerz.png" alt="vitoria meinerz logo" width="150"></a>
+                <a href="#home"><img  src="images/Vitória Meinerz.png" alt="vitoria meinerz logo" width="150"></a>
             </div>
             <ul>
                 <li class="nav-item">
@@ -35,13 +38,14 @@
         <h3>HI THERE 👋, I'M</h3>
         <h1 class="title">Vitória Calvi Meinerz</h1>
         <h4 class="color1">FULL-STACK WEB DEVELOPER</h4>
-        <p>I'm a software development student at Trybe, based in Porto Alegre, Brazil. What motivates me towards web development is 
+        <p>I'm a software development student at <a href="https://www.betrybe.com/" target="_blank">Trybe</a> , based in Porto Alegre, Brazil. What motivates me towards web development is 
         the opportunity to change the way people interact with technology in a daily basis, improving their experience 
         by a well developed and designed product.</p>
+        <a class="button" href="#contactme">Hire me</a>
     </div>
 
    <div>
-    <img src="images/profileme.JPG" alt="foto de perfil" width="200">
+    <img class="profilepic" src="images/profileme.JPG" alt="foto de perfil" width="200">
    </div>
 <!-- final home -->
 <hr>
@@ -49,7 +53,7 @@
 <main>
 <section id="about">
     <div>
-        <h4>About</h4>
+        <h4 class="navtext">About</h4>
         <p>
             My front-end skills as an developer <i> will </i> go from HTML, <strong>CSS</strong>, JavaScript and React. 
             I am really curious about swift, tho.
@@ -90,9 +94,9 @@
        feel free to give feedbacks! they will help me a lot!
    </p>
 </div>
-<ul>
+<ul class="about-work">
     <li>
-        <img width="90" src="images/icons/chain.png" alt="ilustração de dispositivos">
+        <img width="70" src="images/icons/chain.png" alt="ilustração de dispositivos">
         <H4>Responsive</H4>
         <p> All projects that I make are responsive. 
             That means that they will perfectly work. 
@@ -100,7 +104,7 @@
         </p>
     </li>
     <li>
-        <img width="90" src="images/icons/chat.png" alt="illustration of conversation baloons">
+        <img width="70" src="images/icons/chat.png" alt="illustration of conversation baloons">
         <H4>Comunication</H4>
         <p> In my opinion, communication is one of the 
             most crucial skills one might need. Everything
@@ -110,7 +114,7 @@
         </p>
     </li>
     <li>
-        <img width="90" src="images/icons/focus.png" alt="illustration of focus sign">
+        <img width="70" src="images/icons/focus.png" alt="illustration of focus sign">
         <H4>Easy to use</H4>
         <p> Accessibility is an important thing to consider 
             while coding and creating new amazing things! 
@@ -121,7 +125,7 @@
         </p>
     </li>
     <li>
-        <img width="90" src="images/icons/startup.png" alt="illustration of a rocket">
+        <img width="70" src="images/icons/startup.png" alt="illustration of a rocket">
         <H4>A -true- clichê</H4>
         <p> I know, talking about how much love you put into
             your work is a big clichê, but it is true. 
@@ -144,7 +148,7 @@
 <!-- final do portifólio -->
 <hr>
 <!-- começo contact -->
-<section id="contactme">
+<section class="navtext" id="contactme">
     <div id="adctxt">
         <p>Want to work together? </p>
         <p> <strong>Contact me!</strong></p>
