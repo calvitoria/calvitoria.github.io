@@ -112,6 +112,7 @@ a:hover {
 
 .profilepicture {
   margin-top: 50px;
+  
 }
 
 /* end of home pg -------------------------------------------------- */
@@ -144,12 +145,33 @@ a:hover {
   font-size: 12px;
 }
 
-
-.about-work {
+.principle-card{
+  border: none;
+  padding: 10px;
+  margin: 15px;
+  background-color: #333845;
+  border-radius: 0.5em;
   font-size: 14px;
   font-weight: 300;
   list-style: none;
+  box-shadow: -1px 11px 42px 0px #212121;
+  cursor: pointer;
+
 }
+
+
+.principle-card:hover{
+  /* background-color: #4f518c; */
+  background-color: #0ba2be;
+  color: #262a34;
+  
+}
+
+.principle-icon{
+  display: inline;
+}
+
+
 
 /* end of about pg----------------------------------------------- */
 
@@ -158,10 +180,11 @@ footer {
   height: 80px;
   background-color: #495057;
   width: 100%;
-  padding: 25px;
   text-align: center;
-  font-size: 18px;
+  margin: 0;
 }
+
+
 
 .fot-item {
   display: inline-block; 
