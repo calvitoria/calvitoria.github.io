@@ -5,10 +5,7 @@ body {
   font-size: 16px;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.navbar {
-  text-align: center;
+  font-weight: 400;
 }
 
 p {
@@ -24,38 +21,55 @@ a:hover {
   color: #af87ff;
 }
 
+/* page home  -------------------------------------------------*/
+.nav-container{
+  width: 100%;
+  height: 80px;
+  display: flexbox;
+}
+
+
 #logo {
-  display: inline-block;
+  position: absolute;
+  float: left;
+  /* com o logo com nome: deixar margin 0 */
+  margin-top: 10px; 
+  padding: 0;
+
   
 }
+
+/* .navbar {
+  text-align: center;
+  text-transform: lowercase;
+} */
+
+.ul-navbar{
+ list-style: none;
+ color: #d7afff;
+ text-align: center;
+  /* display: flex;
+ flex-direction: row; */
+ float: right; 
+ margin-top: 20px;
+ font-weight: 600;
+}
+
+/* .ul-navbar>a:hover {
+  color: white;
+} */
 
 .nav-item {
   text-align: center;
   display: inline;
   padding: 10px;
+ 
 }
 
-.nav-title {
-  display: inline-block;
-  padding: 0px, 15px, 15px, 15px;
-}
 
-#disclamer {
-  color: #0ba2be;
-  font-size: 12px;
-}
-.color1 {
-  color: #0ba2be;
-}
-
-.navtext {
-  color: #0ba2be;
-}
-
-.about-work {
-  font-size: 14px;
-  font-weight: 300;
-  list-style: none;
+.hi {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .title-name {
@@ -63,21 +77,19 @@ a:hover {
   font-size: 60px;
   margin: 0px;
   padding: 0;
-  line-height: 35px;
+  line-height: 60px;  
 }
 
-/* .title-name:hover{
-    color: #0ba2be;
-} */
-
-.hi {
-  font-size: 20px;
-  font-weight: 400;
+.sub-title-home {
+  color: #0ba2be;
+  margin-top: 20px;
 }
 
 .homep {
   margin-bottom: 30px;
-  margin-top: -18px;
+  margin-top: 10px;
+  width: 80%;
+  
 }
 
 .button {
@@ -102,15 +114,46 @@ a:hover {
   margin-top: 50px;
 }
 
+/* end of home pg -------------------------------------------------- */
+
+/* about pg --------------------------------------------------------- */
+
+.sub-title {
+  color: #0ba2be;
+}
+ 
+/* text about me */
+
+/* list of skills */
 .nodeco {
   list-style: none;
 }
 
+/* lilac changes the 'pointer' of the li */
 .lilac {
   color: #d7afff;
   font-weight: 900;
 }
 
+#memoji{
+
+}
+
+#disclamer {
+  color: #0ba2be;
+  font-size: 12px;
+}
+
+
+.about-work {
+  font-size: 14px;
+  font-weight: 300;
+  list-style: none;
+}
+
+/* end of about pg----------------------------------------------- */
+
+/* footer pg --------------------------------------------------- */
 footer {
   height: 80px;
   background-color: #495057;
