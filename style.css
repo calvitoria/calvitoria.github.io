@@ -233,6 +233,11 @@ ul li a:hover {
   
 }
 
+.principle-card:hover {
+  color: #262a34;
+  background-color: #0ba2be;
+}
+
 .card-text h4{
   padding: 2px 0;
   color: white;
