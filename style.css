@@ -12,12 +12,13 @@ body {
   font-weight: 300px;
 }
 
+/* criar classe apenas para configurações de margem. class"margin-300" */
 header{
-  margin: 0 200px;
+  /* margin: 0 200px; */
 }
 
 main{
-  margin: 220px 0 0 200px;
+  /* margin: 220px 0 0 200px; */
   background-color: #2d323d;
   width: auto;
 }
@@ -38,7 +39,6 @@ a:hover {
 
 /* page home  -------------------------------------------------*/
 .nav-container{
-  width: 100%;
   height: 80px;
   display: flexbox;
   margin-top: 15px;
@@ -64,8 +64,6 @@ a:hover {
  list-style: none;
  color: #d7afff;
  text-align: center;
-  /* display: flex;
- flex-direction: row; */
  float: right; 
  margin-top: 20px;
  font-weight: 600;
@@ -84,12 +82,12 @@ ul li a:hover {
 }
 
 .home-wrapper{
-  width: 100%;
-  display: inline-block;
+  margin-bottom: 200px;
 }
 
 .home-text-wrapper{
   margin-top: 100px;
+  margin-bottom: 100px;
   display: inline-block;
 }
 
@@ -117,7 +115,7 @@ ul li a:hover {
 .homep {
   margin-bottom: 30px;
   margin-top: 10px;
-  max-width: 50%;
+  max-width: 40%;
   text-align: justify;
   
 }
@@ -142,38 +140,46 @@ ul li a:hover {
 }
 
 .profilepicture {
-  margin-top: -390px;
-  float: right;
-  display: inline-block;
-  
+  margin-top: -490px;
+  float: right;  
 }
 
 /* end of home pg -------------------------------------------------- */
 
 /* about pg --------------------------------------------------------- */
+#about {
+  padding-top: 80px;
+ 
+}
 
-/* #about{
-  left: px;
-} */
+/* class que engloba do about até disclamer: */
+.about-1-wrapper{
+  
+}
+
 .skill-section{
+  padding-top: 200px;
   margin-top: 100px;
-  margin-left: 0px;
 }
 
 .sub-title {
   color: #0ba2be;
-  margin: 50px 0 20px 0;
+  font-size: 30px;  
+  padding: 2em 0 1em 0;
+  font-weight: 300;
+  
 }
  
 /* text about me */
 .skills-text{
   max-width: 40%;
-  text-align: justify;
-  
+  text-align: justify;  
+ 
 }
 
-skills-list{
-
+.skills-list li{
+  max-width: 40%;
+  text-align: justify; 
 }
 
 /* list of skills */
@@ -188,47 +194,93 @@ skills-list{
 }
 
 #memoji{
+ float:right;
+ margin-top: -590px;
+}
 
+#disclamer span{
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(172, 170, 170);
 }
 
 #disclamer {
-  color: #0ba2be;
+  color: #0ba3be71;
   font-size: 12px;
+  margin-top: 200px;
 }
+
+#disclamer:hover{
+  color: #0ba2be;
+  font-size: 16px;
+  margin-top: 200px;
+}
+
 
 .principle-card{
   border: none;
-  padding: 10px;
-  margin: 10px 0;
   background-color: #333845;
   border-radius: 0.5em;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   list-style: none;
   box-shadow: -1px 11px 42px 0px #212121;
   cursor: pointer;
+  padding: 2em;
 
+
+}
+
+.card-text h4{
+  padding: 2px 0;
+  color: white;
 }
 
 .card-wrapper{
-  width: 20%;
-  margin: 0 5px;
-  display: inline-block;
+  text-align: justify;
+  display: inline-block;  
+  max-width: 20%;
   
 }
 
+/* não sei porq mas o P não está mudando de cor com o hover então criei outro hover */
 .principle-card:hover{
   /* background-color: #4f518c; */
   background-color: #0ba2be;
+    color: #262a34;
+   
+}
+
+.card-text p:hover{
   color: #262a34;
+}
+
+.principle-container{
+  padding: 50px 0;
+  margin-bottom: 50px;
   
 }
 
-.principle-icon{
-  display: inline;
+.card1{
+  margin-right: 60px;
+  
 }
 
+.card2{
+  margin-right: 60px;
+  
+}
 
+.card3{
+  margin-right: 60px;
+  
+}
+
+.card4{
+  position: absolute;
+  float-right;
+  /* margin-right: -60px; */
+}
 
 /* end of about pg----------------------------------------------- */
 
@@ -245,4 +297,8 @@ footer {
 
 .fot-item {
   display: inline-block; 
+}
+
+.margin300{
+  margin: 0 200px;
 }
