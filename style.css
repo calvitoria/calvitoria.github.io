@@ -10,17 +10,18 @@ body {
   color: white;
   font-size: 16px;
   font-weight: 300px;
+  margin: 0;
+  padding: 0;
 }
 
 /* criar classe apenas para configurações de margem. class"margin-300" */
 header{
-  /* margin: 0 200px; */
+  
 }
 
 main{
-  /* margin: 220px 0 0 200px; */
   background-color: #2d323d;
-  width: auto;
+  /* width: auto; */
 }
 
 
@@ -40,7 +41,6 @@ a:hover {
 /* page home  -------------------------------------------------*/
 .nav-container{
   height: 80px;
-  display: flexbox;
   margin-top: 15px;
 }
 
@@ -50,15 +50,8 @@ a:hover {
   float: left;
   /* com o logo com nome: deixar margin 0 */
   margin-top: 10px; 
-  padding: 0;
-
-  
+  padding: 0;  
 }
-
-/* .navbar {
-  text-align: center;
-  text-transform: lowercase;
-} */
 
 .ul-navbar{
  list-style: none;
@@ -149,6 +142,7 @@ ul li a:hover {
 /* about pg --------------------------------------------------------- */
 #about {
   padding-top: 80px;
+  
  
 }
 
@@ -217,86 +211,52 @@ ul li a:hover {
 }
 
 
+.principle-container{
+  /* acho que não vou usar por agora kkkk */
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: -35px;
+}
+
 .principle-card{
-  border: none;
   background-color: #333845;
+  box-shadow: -1px 11px 42px 0px #22212179;
   border-radius: 0.5em;
-  font-size: 12px;
-  font-weight: 300;
-  list-style: none;
-  box-shadow: -1px 11px 42px 0px #212121;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 1.5em;
   cursor: pointer;
-  padding: 2em;
-
-
+  display: inline-block;
+  max-width: 20%;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  
 }
 
 .card-text h4{
   padding: 2px 0;
   color: white;
-}
-
-.card-wrapper{
   text-align: justify;
-  display: inline-block;  
-  max-width: 20%;
-  
 }
 
-/* não sei porq mas o P não está mudando de cor com o hover então criei outro hover */
-.principle-card:hover{
-  /* background-color: #4f518c; */
-  background-color: #0ba2be;
-    color: #262a34;
-   
-}
 
-.card-text p:hover{
-  color: #262a34;
-}
-
-.principle-container{
-  padding: 50px 0;
-  margin-bottom: 50px;
-  
-}
-
-.card1{
-  margin-right: 60px;
-  
-}
-
-.card2{
-  margin-right: 60px;
-  
-}
-
-.card3{
-  margin-right: 60px;
-  
-}
-
-.card4{
-  position: absolute;
-  float-right;
-  /* margin-right: -60px; */
-}
 
 /* end of about pg----------------------------------------------- */
 
 /* footer pg --------------------------------------------------- */
 footer {
-  height: 80px;
   background-color: #495057;
-  width: 100%;
   text-align: center;
-  margin-top: 50px;
+  padding: 1em;
+  font-size: 20px;
+  
 }
 
 
 
 .fot-item {
   display: inline-block; 
+  padding: 12px 12px 0 0;
 }
 
 .margin300{
